@@ -2,7 +2,7 @@
 
 ## *Esther Goldstein*
 
-**Yelp Clone** displays a list of maps, each of which show user-defined markers with a title, description, and location. The user can also create a new map. 
+**Yelp clone** displays a list of search results from the Yelp API and displays the results in a scrollable list. 
 
 Time spent: **5** hours spent in total
 
@@ -28,7 +28,7 @@ GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
 ## Notes
 
-Trying to change the layout of the RecyclerView was difficult because I had to figure out which type of layout to use, and for a while none of the maps were showing up in the app. It was also challenging to deal with date/time formatting/parsing and figuring out how to sort by the most recently created map.
+I had issues adding the Yelp-branded stars because I was trying to incorporate them into the RatingBar. After I changed the RatingBar to an ImageView, I was able to get it to work.
 
 ## License
 
